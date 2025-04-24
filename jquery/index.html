@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <title>Document</title>
+</head>
+<style>
+    .box {
+        width: 100px;
+        height: 100px;
+    }
+
+    .black {
+        background-color: black;
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .btn-animate {
+        background-color: red;
+        color: white;
+        border-radius: 10px;
+        padding: 5px 15px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn-animate:hover {
+        background-color: rgb(211, 23, 23);
+    }
+
+    .btn-animate:active {
+        background-color: brown;
+    }
+
+    .text-animate {
+        padding: 30px;
+    }
+
+    .error {
+        color: red;
+        display: none;
+    }
+
+    .sended {
+        color: green;
+        display: none;
+    }
+</style>
+
+<body>
+    <!-- <div class="container">
+        <p class="text">Первоначальный текст</p>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <a href="" id="link">Link</a>
+    </div> -->
+
+    <!-- <div class="container">
+        <h1 class="todo-and-count">Todo: </h1>
+        <input type="text" name="" id="" class="todo-input" placeholder="Enter your TODO">
+        <button class="todo-add">Add</button>
+        <button class="todo-remove">Remove</button>
+        <ul class="todo-list"></ul>
+    </div> -->
+
+    <!-- <button id="btn-animate">Press me</button>
+    <p class="text-animate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus natus laborum ut, illum
+        accusantium obcaecati debitis corrupti temporibus tempora tenetur quidem nesciunt nemo perspiciatis enim
+        voluptate, tempore ipsam architecto dignissimos.</p> -->
+
+    <form id="form-data">
+        <input type="text" class="name" placeholder="Enter ur name">
+        <input type="email" id="email" placeholder="Enter ur email">
+        <input type="tel" id="phone" placeholder="Enter ur phone">
+        <div class="error" id="error">Error. // Please. Enter all field</div>
+        <button class="btn" type="submit">SEND</button>
+        <div class="sended" id="sended">Successful</div>
+    </form>
+
+    <!-- <div class="block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus reprehenderit repellat
+        tempora,
+        recusandae quaerat corporis voluptate, eligendi officia explicabo quisquam iusto dolor incidunt placeat vero
+        debitis, itaque dolorum nihil laudantium.</div>
+
+    <p class="text">das</p>
+    <p class="text">paad</p>
+    <p class="text">asd</p>
+    <p class="text">gdfs</p>
+    <p class="text">gsdf</p> -->
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./js/2app.js"></script>
+</body>
+
+</html>
